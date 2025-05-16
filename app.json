@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "FitCoach AI",
+    "slug": "fitcoach-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#4F46E5",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.fitcoach-ai",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to capture body photos for fitness transformation visualization.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photos to let you upload body photos for transformation visualization."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4F46E5"
+      },
+      "package": "com.yourcompany.fitcoach_ai",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
